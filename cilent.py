@@ -3,7 +3,7 @@ import socket
 PORT = 5050
 FORMAT = "utf-8"
 HEADER = 64
-SERVER = "20.0.2.149"
+SERVER = "20.0.2.149"  # ip address of server 
 ADDR = (SERVER,PORT)
 cilent = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 cilent.connect(ADDR)
